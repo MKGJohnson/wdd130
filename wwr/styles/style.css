@@ -3,7 +3,7 @@
     <header>
     div {
         max: width 1600px;
-        margin: 0 auto
+        margin: 0 auto;
         text-align:center; 
     #background {
         height: 725px;
@@ -30,5 +30,5 @@
         text-decoration: none;
     }    
     </footer>
-    <div>
+    </div>
    </body>
