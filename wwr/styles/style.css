@@ -1,6 +1,5 @@
 
     <div id="content">
-    <header>
     div {
         max: width 1600px;
         margin: 0 auto;
@@ -29,6 +28,5 @@
         color: #fcfbfb;
         text-decoration: none;
     }    
-    </footer>
-}</div>
+   </div>
    
