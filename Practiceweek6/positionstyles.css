@@ -93,21 +93,29 @@
     width: 100px; 
     height: 100px; 
     background-color: red; 
+    justify-content: center;
+    align-content: center;
     } 
     .green1 {
     width: 100px; 
     height: 100px; 
     background-color: green; 
+    justify-content: center;
+    align-content: center;
     } 
     .yellow1 {
     width: 100px; 
     height: 100px; 
-    background-color: gold; 
+    background-color: gold;
+    justify-content: center;
+    align-content: center; 
     } 
     .blue1 {
     width: 100px; 
     height: 100px; 
-    background-color: blue; 
+    background-color: blue;
+    justify-content: center;
+    align-content: center; 
     } 
      /* Activity 2 styles */ 
     .content2 {
@@ -117,21 +125,29 @@
     width: 100px; 
     height: 100px; 
     background-color: red; 
+    justify-items: center;
+    align-items: center;
     } 
     .green2 { 
     width: 100px; 
     height: 100px; 
     background-color: green; 
+    justify-items: center;
+    align-items: center;
      } 
     .yellow2 {
     width: 100px; 
     height: 100px; 
-    background-color: gold; 
+    background-color: gold;
+    justify-items: center;
+    align-items: center; 
     } 
     .blue2 {
     width: 100px; 
     height: 100px; 
     background-color: blue; 
+    justify-items: center;
+    align-items: center;
     } 
      /* Activity 3 styles */ 
     .content3 {
@@ -141,21 +157,37 @@
     width: 100px; 
     height: 100px; 
     background-color: red; 
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
      } 
     .green3 {
     width: 100px; 
     height: 100px; 
     background-color: green;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
      } 
     .yellow3 {
     width: 100px; 
     height: 100px; 
     background-color: gold; 
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
      } 
     .blue3 {
     width: 100px;
     height: 100px; 
     background-color: blue; 
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
      } 
      /* Activity 4 styles */ 
     .content4 {
