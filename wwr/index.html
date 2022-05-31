@@ -8,17 +8,39 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <header>
-    <a id="logo_link" href="index.html"></a>
+    {display: grid;
+    grid-template-columns: 150px auto;}
+    <a id="logo_link" href="index.html">
+        #logo_link {
+            padding-top: 5px;
+            justify-self: center;
+            align-self: center;
+        }
+    </a>
         <img class="logo" src="images/logo.png" alt="Dry Oar Logo" </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="#">Page 2</a>
             <a href="site-plan-rafting.html">Site Plan</a>
             <a href="contactus.html">Contact Us</a>
+            nav {
+                display: flex;
+                justify-content: space-around;
+            }
         </nav>  
+            
 </header>
 <div id="hero">
     <div id="hero-img" src="images/hero.png" alt="people enjoying white water rafting"
+    #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+        #hero-box {
+            grid-column: 1/4;
+            grid-row: 1/3;
+        }
+    }
 </div>
     <section id="hero-msg"></section>
         <h1 class="home-title">Have An Adventure</h1>
