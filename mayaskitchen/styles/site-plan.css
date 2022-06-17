@@ -107,7 +107,7 @@ nav {
 }
 nav  {
   list-style-type: none;
-  display: flex;
+  display: inline-flex; 
 
 }
 nav a {
@@ -115,7 +115,6 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
-
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -124,11 +123,6 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
-.sitemap {
-  display: grid;
-  justify-content: center;
-
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
