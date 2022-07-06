@@ -6,38 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maya's Kitchen</title>
     <link rel="stylesheet" href="styles\site-plan.css">
-<script> <div id="content">
-        let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-} 
-</script>
 </head>
 <header>
         <a id="logo_link" href="images\logo.png">
@@ -222,7 +191,11 @@ function showSlides(n) {
         <img class="demo cursor" src="images\Cookies.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
       </div>
     </section> 
-<p><b>Reviews! 5 STARS!!</b></p>
+  
+    <br/> 
+<p>
+    <b>Reviews! 5 STARS!!</b></p>
+<br/>
 <p>"Ordered a graduation cake for my daughter. Showed Maya a picture of what we wanted and she was able to make it exactly how we wanted it and it was the best cake I had ever tasted! Yummy! We also ordered the better than anything cupcakes.....Wow! They were incredible!  Highly recommend you will not be disappointed!
 -Shana Learn </p>
 <p>"Ordered a cake for Mother’s Day! It was amazing and fresh and Maya was such a pleasure!!! I will definitely be back! 😍" -Katlyn Armijo </p>
